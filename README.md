@@ -88,4 +88,9 @@ Generates VCSF mask by computing CSF voxels corresponding to Hand-drawn ventricl
 2) S.M. Smith, M. Jenkinson, M.W. Woolrich, C.F. Beckmann, T.E.J. Behrens, H. Johansen-Berg, P.R. Bannister, M. De Luca, I. Drobnjak, D.E. Flitney, R. Niazy, J. Saunders, J. Vickers, Y. Zhang, N. De Stefano, J.M. Brady, and P.M. Matthews. Advances in functional and structural MR image analysis and implementation as FSL. NeuroImage, 23(S1):208-19, 2004
 - FSL reference.
 
+3)  Brian B. Avants (Creator, Algorithm Design, Implementation), Nicholas J. Tustison (Compeller, Algorithm Design, Implementation Guru), Hans J. Johnson (Large-Scale Application, Testing, Software design), Gang Song (Originator), Philip A. Cook, Jeffrey T. Duda (DTI), Ben M. Kandel (Perfusion, multivariate analysis), and Nick Cullen (Python, R)
+N4ITK: improved N3 bias correction. IEEE Trans Med Imaging (2010)
+- ANTS N4 bias field correction reference.
+
+
 
