@@ -18,7 +18,7 @@ t_bold = np.arange(nt) * TR
 # Reshape to (V, T)
 bold_flat = bold.reshape(V, nt)
 
-# LOAD ETCO₂ file
+# LOAD ETCO2 file
 etdf = pd.read_csv(etco2_path, sep=None, engine="python")
 time_et = etdf["sec"].values
 
