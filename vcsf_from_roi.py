@@ -2,12 +2,12 @@ import numpy as np
 import nibabel as nib
 from scipy.ndimage import label, generate_binary_structure, binary_fill_holes
 
-csf_path = "csf2bold.nii"         # csf in bold space
-roi_path = "vcsf_roi.nii"         # hand-drawn ventricle ROI
+csf_path = "csf2bold.nii"    # csf in bold space
+roi_path = "vcsf_roi.nii"    # hand-drawn ventricle ROI
 out_path = "vcsf_final.nii"
 
 thr = 0.2
-minvox = 20        # remove tiny specks
+minvox = 20    # remove tiny specks
 
 csf_img = nib.load(csf_path)
 roi_img = nib.load(roi_path)
